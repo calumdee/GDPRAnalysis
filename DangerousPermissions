@@ -1,3 +1,11 @@
+import psycopg2
+import matplotlib.pyplot as plt    
+import requests
+from scipy import stats
+import numpy as np
+import pandas as pd
+import random
+
 conn = psycopg2.connect(config)
 cur = conn.cursor()
 
